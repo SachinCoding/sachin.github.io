@@ -1,0 +1,72 @@
+.bgimg{
+  background-image: url(../SACHIN/School.jpg.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 120%;
+  height: 900px;   
+}
+
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 300px;
+}
+.headerset h1{
+    font-size: 80;
+    font-weight: bolder;
+    font-style: normal;
+    transition: o.7s ease;
+}
+.headerset h6{
+    font-size: 24px;
+    padding: 20px;
+}
+.headerset h1:hover{
+    font-size: 85px ;
+    color: darkgray;
+}
+.headerset h6:hover{
+    font-size: 24px;
+    padding: 20px;
+}
+@media only screen and (max-width: 810px);{
+
+    .headerset h1{font-size: 35px;
+        font-weight: bold;
+        font-style: inherit;
+        transition: 0.7s ease;
+
+    }
+.posts{
+    color: rgb(5, 0, 0);
+    margin-top: 200px;
+    font-size: 50px;
+    bottom: 25px;
+
+}
+  .navbar-nav li a{
+      transition: 0.8;
+      margin: 20px;
+
+  }   
+  .navbar-nav li a:hover{
+      background: .navbar-nav
+    
+  }
+  selection{
+      padding: 25px;
+      margin: 25px;
+    
+  }
+  .card-group{
+      margin: 25px;
+
+  }
+  .card{
+      margin: 25px;
+
+  }
+  .card:hover{
+      opacity: 25px;
+  }
+  
